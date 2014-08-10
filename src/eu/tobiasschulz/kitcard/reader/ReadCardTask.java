@@ -16,7 +16,7 @@
  * along with KITCard Reader. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.Ox539.kitcard.reader;
+package eu.tobiasschulz.kitcard.reader;
 
 /**
  * ReadCardTask: Read an NFC tag using the Wallet class asynchronously.
@@ -28,7 +28,7 @@ package de.Ox539.kitcard.reader;
  * @author Philipp Kern <pkern@debian.org>
  */
 
-import de.Ox539.kitcard.reader.Wallet.ReadCardResult;
+import eu.tobiasschulz.kitcard.reader.Wallet.ReadCardResult;
 import android.nfc.Tag;
 import android.nfc.tech.MifareClassic;
 import android.os.AsyncTask;

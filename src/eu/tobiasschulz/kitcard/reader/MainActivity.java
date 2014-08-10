@@ -16,7 +16,7 @@
  * along with KITCard Reader. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.Ox539.kitcard.reader;
+package eu.tobiasschulz.kitcard.reader;
 
 import android.nfc.NfcAdapter;
 import android.nfc.NfcManager;
@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_launcher);
 
         pendingIntent = PendingIntent.getActivity(this, 0,
-                new Intent("de.Ox539.kitcard.reader.TECH_DISCOVERED").addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
+                new Intent("eu.tobiasschulz.kitcard.reader.TECH_DISCOVERED").addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
         final IntentFilter intentFilter = new IntentFilter(NfcAdapter.ACTION_TECH_DISCOVERED);
         intentFiltersArray = new IntentFilter[] { intentFilter };
         techListsArray = new String[][] { new String[] { MifareClassic.class.getName() } };

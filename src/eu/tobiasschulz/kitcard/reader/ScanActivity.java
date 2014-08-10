@@ -16,7 +16,7 @@
  * along with KITCard Reader. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.Ox539.kitcard.reader;
+package eu.tobiasschulz.kitcard.reader;
 
 import android.nfc.NfcAdapter;
 import android.nfc.NfcManager;
@@ -98,7 +98,7 @@ public class ScanActivity extends Activity {
     private void resolveIntent(Intent intent) {
     	String action = intent.getAction();
     	if (!NfcAdapter.ACTION_TECH_DISCOVERED.equals(action) &&
-    			!action.equals("de.Ox539.kitcard.reader.TECH_DISCOVERED")) {
+    			!action.equals("eu.tobiasschulz.kitcard.reader.TECH_DISCOVERED")) {
     		// Not a tag invocation.
         	return;
         }

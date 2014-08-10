@@ -16,7 +16,7 @@
  * along with KITCard Reader. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.Ox539.kitcard.reader;
+package eu.tobiasschulz.kitcard.reader;
 
 import android.content.res.Resources;
 

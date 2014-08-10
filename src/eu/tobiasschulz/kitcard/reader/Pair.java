@@ -1,4 +1,4 @@
-package de.Ox539.kitcard.reader;
+package eu.tobiasschulz.kitcard.reader;
 
 /*
  * Pair: a simple Pair implementation
