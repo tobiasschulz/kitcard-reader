@@ -10,3 +10,5 @@ It has been tested with Nexus S, Galaxy S III, Galaxy Nexus, HTC One X, Motorola
 This project is not associated with either Karlsruhe Institute of Technology or Studentenwerk Karlsruhe.
 
 This app is available in Google's play store. Some tested and confirmed working devices (like Motorola RAZR i) are not allowed to install this app through the store due to technical restrictions.
+
+The original version of this app is written Philipp Kern and doesn't work on newer Android versions. It can be downloaded here: https://code.google.com/p/kitcard-reader/
